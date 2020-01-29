@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="primary" dark>
-      <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+      <v-toolbar-title>TK Portfolio</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn 
         v-for="link in links"
@@ -31,7 +31,7 @@
           {{ link.label }}
         </v-btn>
         <v-flex primary lighten-2 py-4 text-center white--text xs12>
-          {{ new Date().getFullYear() }} — <strong>Vuetify Dashboard</strong>
+          {{ new Date().getFullYear() }} — <strong>TK Portfolio</strong>
         </v-flex>
       </v-layout>
     </v-footer>
@@ -49,12 +49,12 @@ export default {
           url: '/'
         },
         {
-          label:'Login',
-          url: '/login'
+          label:'Contact',
+          url: '/contact'
         },
         {
-          label:'Dashboard',
-          url: '/dashboard'
+          label:'About',
+          url: '/about'
         },
         {
           label:'Signup',
