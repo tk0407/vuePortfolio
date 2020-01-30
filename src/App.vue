@@ -57,8 +57,8 @@ export default {
           url: '/about'
         },
         {
-          label:'Signup',
-          url: '/signup'
+          label:'Works',
+          url: '/works'
         }
       ]
     }
