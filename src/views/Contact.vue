@@ -35,7 +35,7 @@
               required
             ></v-checkbox>
 
-            <v-btn
+            <!-- <v-btn
               :disabled="!valid"
               color="success"
               class="mr-4"
@@ -46,11 +46,14 @@
 
             <v-btn color="error" class="mr-4" @click="reset">
               Reset Form
-            </v-btn>
+            </v-btn> -->
+            <v-btn class="mr-4" color="success" @click="submit">submit</v-btn>
 
-            <v-btn color="warning" @click="resetValidation">
+            <v-btn class="mr-4" @click="clear">clear</v-btn>
+
+            <!-- <v-btn color="warning" @click="resetValidation">
               Reset Validation
-            </v-btn>
+            </v-btn> -->
           </v-form>
         </template>
       </v-col>
